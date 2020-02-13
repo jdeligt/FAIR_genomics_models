@@ -1,0 +1,17 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix fdp: <http://rdf.biosemantics.org/ontologies/fdp-o#>.
+@prefix datacite: <http://purl.org/spar/datacite/>.
+
+<> rdf:type dcat:Catalog;
+    dct:title "Cross-omics on colorectal cancer (CRC) BRAF(V600E)";
+    dct:hasVersion "1";
+    dct:publisher <http://www.cancergenomics.nl/>;
+    dct:description "Cross-omics analysis of colorectal cancer (CRC) WiDr and WiDr PTPN11 KO cell line harboring BRAF(V600E) upon either single or double drug treatments";
+    dct:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+    dcat:themeTaxonomy <https://www.wikidata.org>.
+<http://www.cancergenomics.nl/> rdf:type foaf:Organization;
+    foaf:name "CGC.nl".

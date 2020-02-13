@@ -1,0 +1,18 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix fdp: <http://rdf.biosemantics.org/ontologies/fdp-o#>.
+@prefix datacite: <http://purl.org/spar/datacite/>.
+
+<> rdf:type dcat:Dataset;
+    dct:title "Proteomics of CRC BRAF(V600E) WiDr and WiDr PTPN11KO";
+    dct:hasVersion "1";
+    dct:publisher <http://www.cancergenomics.nl/>;
+    dct:description "Proteome profiling of CRC BRAF(V600E) WiDr and WiDr PTPN11KO after treatment with PLX4032, Gefitinib and combination of both";
+    dct:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+    dcat:theme <http://www.wikidata.org/entity/Q471857>;
+    dcat:keyword "whole proteome", "colorectal cancer", "BRAF(V600E)", "EGFR", "WiDr", "orbitrap", "label-free quantification".
+<http://www.cancergenomics.nl/> rdf:type foaf:Organization;
+    foaf:name "CGC.nl".
